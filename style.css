@@ -26,4 +26,45 @@ header{
     padding: 24px 0;
     font-size: 24px;
    }
-
+   .escola-imagem{
+    width: 25%;
+   }
+   .escola{
+    background-image: linear-gradient( #491674,#b672ed);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+   }
+   .escola-conteudo{
+    width: 35%;
+   }
+   .escola.titulo{
+    padding: 24px 0;
+   }
+   body{
+    font-family:’Poppins’,sans-serif;
+    }
+    .estudante-imagem{
+        width: 120px;
+    }
+    .estudante-icone{
+        width: 24px;
+    }
+    .estudante-div{
+        text-align: center;
+    }
+    .estudante-titulo{
+        text-align: center;
+        padding: 50px 0;
+    }
+    .estudante-todos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+    footer{
+        background-color: black;
+        padding: 15px;
+        text-align: center;
+    }
